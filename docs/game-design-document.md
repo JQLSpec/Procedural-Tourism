@@ -237,7 +237,7 @@ Example identifiers for hypothetical Japan content: `JPN-Q-JO-01` (Journey quest
 
 All 150 core cards have been authored as first playable drafts: 60 quests (v1.2), 40 conditions (v2.1) and 50 curses (v2.1). All use canonical identifiers. Field playtesting and combination testing remain pending. Evaluate the curse duration mix, larger-group support, discard procedure and compliance adjudication. Consider optional campaign records or rewards only after the cooperative loop is proven enjoyable.
 
-Companion documents: `travel-quest-deck.md`, `travel-game-conditions-design.md`, `travel-game-curses-design.md`, and `travel-game-player-rulebook.md`. Older references are subordinate to this baseline on round length, mandatory curses and failure outcomes.
+Companion sources: [`../sets/CORE/quests.md`](../sets/CORE/quests.md), [`../sets/CORE/conditions.md`](../sets/CORE/conditions.md), [`../sets/CORE/curses.md`](../sets/CORE/curses.md), and [`player-rulebook.md`](player-rulebook.md). Older references are subordinate to this baseline on round length, mandatory curses and failure outcomes.
 
 ## Revision history
 

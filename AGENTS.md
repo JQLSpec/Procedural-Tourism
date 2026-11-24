@@ -10,16 +10,16 @@ Read the relevant source documents before making changes. The Game Design Docume
 
 | File | Responsibility |
 | --- | --- |
-| `procedural-tourism-game-design-document.md` | Design pillars, core mechanics, expansion rules, namespace registry |
-| `procedural-tourism-player-rulebook.md` | Rules and instructions for players |
-| `procedural-tourism-quest-deck.md` | Quest design and cards |
-| `procedural-tourism-conditions-deck.md` | Condition design and cards |
-| `procedural-tourism-curse-deck.md` | Curse design and cards |
-| `procedural-tourism-player-rulebook.pdf` | Printable rulebook |
-| `procedural-tourism-*-cards-avery-95272.pdf` | Printable card decks |
-| `avery-95272-alignment-test.pdf` | Print alignment test |
+| `docs/game-design-document.md` | Design pillars, core mechanics, expansion rules, namespace registry |
+| `docs/player-rulebook.md` | Rules and instructions for players |
+| `sets/CORE/quests.md` | Core quest design and cards |
+| `sets/CORE/conditions.md` | Core condition design and cards |
+| `sets/CORE/curses.md` | Core curse design and cards |
+| `sets/CORE/assets/rulebook.pdf` | Printable rulebook |
+| `sets/CORE/assets/cards/*.pdf` | Printable core card decks |
+| `sets/CORE/assets/templates/avery-95272/` | Avery 95272 templates and alignment tests |
 
-These paths reflect the current flat file layout. If the repository is reorganized, resolve the actual paths and update references rather than creating duplicate sources. Do not assume generation scripts or a build system exist; inspect the repository first.
+These paths identify the current source and derived-asset layout. New sets belong under `sets/<NAMESPACE>/`; set-specific generated assets belong under `sets/<NAMESPACE>/assets/`. Do not create duplicate sources. Do not assume generation scripts or a build system exist; inspect the repository first.
 
 ## Design invariants
 

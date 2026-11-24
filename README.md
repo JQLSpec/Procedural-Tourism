@@ -20,7 +20,7 @@ Travelers cooperate to complete their quests while observing the applicable cond
 
 ## Getting started
 
-1. Read the [Player Rulebook](procedural-tourism-player-rulebook.md) ([printable PDF](procedural-tourism-player-rulebook.pdf)).
+1. Read the [Player Rulebook](docs/player-rulebook.md) ([printable PDF](sets/CORE/assets/rulebook.pdf)).
 2. Print the three decks or use the Markdown versions to draw cards digitally.
 3. Shuffle each deck separately, agree on a round start time, and begin exploring.
 
@@ -30,18 +30,21 @@ The core edition includes 150 cards formatted for Avery 95272 (2.5 × 3.5-inch p
 
 | Deck | Printable PDF | Sheets |
 | --- | --- | ---: |
-| Quest | [Quest cards](procedural-tourism-quest-cards-avery-95272.pdf) | 10 |
-| Condition | [Condition cards](procedural-tourism-condition-cards-avery-95272.pdf) | 7 |
-| Curse | [Curse cards](procedural-tourism-curse-cards-avery-95272.pdf) | 9 |
+| Quest | [Quest cards](sets/CORE/assets/cards/quest-avery-95272.pdf) | 10 |
+| Condition | [Condition cards](sets/CORE/assets/cards/condition-avery-95272.pdf) | 7 |
+| Curse | [Curse cards](sets/CORE/assets/cards/curse-avery-95272.pdf) | 9 |
 
-Print at actual size (100%), in portrait orientation, with long-edge duplex printing if supported by your printer and stock. Disable fit-to-page scaling. Print the [alignment test](avery-95272-alignment-test.pdf) on ordinary paper and compare it with the card stock before printing the decks.
+Print at actual size (100%), in portrait orientation, with long-edge duplex printing if supported by your printer and stock. Disable fit-to-page scaling. Print the alignment test from `sets/CORE/assets/templates/avery-95272/` on ordinary paper and compare it with the card stock before printing the decks.
 
 ## Project documentation
 
-- [Game Design Document](procedural-tourism-game-design-document.md) — design philosophy, mechanics, and expansion guidelines.
-- [Quest Deck](procedural-tourism-quest-deck.md) — quest design and all 60 core quests.
-- [Conditions Deck](procedural-tourism-conditions-deck.md) — condition design and all 40 core conditions.
-- [Curse Deck](procedural-tourism-curse-deck.md) — curse design and all 50 core curses.
+- [Game Design Document](docs/game-design-document.md) — design philosophy, mechanics, and expansion guidelines.
+- [Player Rulebook](docs/player-rulebook.md) — player-facing rules.
+- [CORE set metadata](sets/CORE/set.md) — core set contents and derived assets.
+- [Quest Deck](sets/CORE/quests.md) — quest design and all 60 core quests.
+- [Conditions Deck](sets/CORE/conditions.md) — condition design and all 40 core conditions.
+- [Curse Deck](sets/CORE/curses.md) — curse design and all 50 core curses.
+- [Set Registry](sets/registry.md) — allocated namespaces and expansion registration.
 - [AGENTS.md](AGENTS.md) — instructions for AI agents maintaining the project.
 
 ## Project status
